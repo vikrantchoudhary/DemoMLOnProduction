@@ -2,9 +2,9 @@
 
 
 # creating env for running 
-> python -m venv env
-> source env/bin/activate
-> which python 
+> python -m venv env \
+> source env/bin/activate \
+> which python  \
 ../DemoMLOnProduction/env/bin/python
 
 # install dependent lib 
