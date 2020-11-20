@@ -1,8 +1,9 @@
-# DemoMLOnProduction
-A way to deploy ML through docker k8s on production. 
+# How to train and run the model
 
-This will help to answer these - 
-  - 1. how trained model will be deployed on production env.
-  - 2. Testing your trained model using "Apache bench"
-  - 3. Docker & kubernetics way to deploy on production.
- 
+In the Jupyter notebook `0 Train Model.ipynb` the training is explained. To simply train and save the model run 
+
+```
+python save_model.py
+```
+
+and to test it out check `load_model.py`
