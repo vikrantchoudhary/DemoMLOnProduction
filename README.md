@@ -51,7 +51,7 @@ Successfully tagged vikrantkc/demo_ml_python:latest
 3771adb019789a00004a259273c7164b62ba9df2c41382150b46e9d6c4d9484d
 
 ```
-# verify the working  also load with "apache bench" 
+# verify it with "apache bench" 
 ```
 > ab -c 250 -n 10000 http://localhost:8000/predict\?text\=today%27s%20weather%20is%20not%20good
 This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
