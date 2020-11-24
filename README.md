@@ -146,7 +146,7 @@ Total of 1000 requests completed
 ```
 
 # View the load on minikube dashboard
-
+![Screenshot](image/Screenshot.png?raw=true "Screenshot")
 
 # Delete and release resource 
 > kubectl delete deployment -l app=demomlpython
