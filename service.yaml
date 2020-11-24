@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demomlpython-service
+spec:
+  selector:
+    app: demomlpython
+  ports:
+  - protocol: TCP
+    targetPort: 8000  # port the container accepts traffic on
+    port: 8000  # port other pods use to access the Service
+    nodePort: 31000
+  type: NodePort

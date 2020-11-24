@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demomlpython
+  labels:
+    app: demomlpython
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: demomlpython
+  template:
+    metadata:
+      labels:
+        app: demomlpython
+    spec:
+      containers:
+      - name: demomlpython
+        image: vikrantkc/demo_ml_python:latest
+        ports:
+        - containerPort: 8000
